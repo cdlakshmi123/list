@@ -1,0 +1,28 @@
+# i=-4
+# c=[]
+# while i<=5:
+#     if i<0:
+#         c.append (i)
+#     i=i+1
+# print(c)
+
+
+# a=[1,2,3,4,5,6,7,8,9,10]
+# i=0
+# b=[]
+# while i<len(a)-1:
+#     n=a[i+1]-a[i]
+#     b.append(n)
+#     i=i+1
+# print(b)
+
+a=12345
+i=1
+rev=0
+
+while a>0:
+    b=a%10
+    rev=rev*10+b
+    a=a//10
+print(rev)
+

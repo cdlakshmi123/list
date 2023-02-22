@@ -1,0 +1,14 @@
+a=[12,67,98,34]
+i=0
+c=[]
+while i<len(a):
+    j=0
+    while a[i]>0:
+        j=j+(a[i])
+        c.append (j)
+    i=i+1
+print(c)
+
+
+
+    

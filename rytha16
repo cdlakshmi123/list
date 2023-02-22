@@ -1,0 +1,7 @@
+i=-4
+c=[]
+while i<=5:
+    if i>=0:
+        c.append (i)
+    i=i+1
+print(c)
